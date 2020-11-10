@@ -82,7 +82,7 @@ if __name__ == '__main__':
             break
 
     vectorizer = CountVectorizer()
-    # corpus
+    # corpus存的是训练集中每封邮件的正文
     fea_train = vectorizer.fit_transform(corpus)
     print(vectorizer.get_feature_names())
     print(fea_train.toarray())
