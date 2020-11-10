@@ -70,7 +70,7 @@ def autoNorm(dataSet):
 
 def datingClassTest():
     hoRatio = 0.1
-    datingDataMat, datingLabels = file2matrix('../../../data/datingTestSet2.txt')
+    datingDataMat, datingLabels = file2matrix('datingTestSet2.txt')
 
     # 归一化
     normMat, ranges, minVals = autoNorm(datingDataMat)
@@ -97,7 +97,7 @@ def datingClassTest():
 
 
 def createScatterDiagram():
-    datingDataMat, datingLabels = file2matrix('../../../data/datingTestSet2.txt')
+    datingDataMat, datingLabels = file2matrix('datingTestSet2.txt')
     type1_x = []
     type1_y = []
     type2_x = []
