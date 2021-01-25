@@ -10,4 +10,4 @@ image_list = [
 
 image_array = np.array(image_list)
 
-cv2.imwrite("img/demo3x2.png",image_array)
+cv2.imwrite("img/demo3x2.png", image_array)
